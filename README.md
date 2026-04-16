@@ -1,4 +1,4 @@
-# create-repository
+#cd path/to/your/nimrod-project
 
 Easily set up a new github repository. Reads the name/description from the package.json file if it's present. Sets origin upstream if it's not already set.
 
