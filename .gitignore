@@ -1,1 +1,27 @@
-node_modules
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Secrets - never commit keys
+*.keystore
+*.jks
+.env
+.env.*
+secrets.properties
+
+# Porcupine custom wake word models are large; keep them out of git
+app/src/main/res/raw/*.ppn
+
+# Node leftovers from the upstream fork
+node_modules/

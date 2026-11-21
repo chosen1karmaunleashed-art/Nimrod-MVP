@@ -1,0 +1,11 @@
+# Copy this file to local.properties (it is gitignored) and fill in your keys.
+# local.properties is NEVER committed.
+
+# Path to your Android SDK
+sdk.dir=/Users/you/Library/Android/sdk
+
+# OpenAI API key - used by OpenAIClient
+OPENAI_API_KEY=sk-your-key-here
+
+# Picovoice access key - used by WakeWordManager (console.picovoice.ai)
+PICOVOICE_ACCESS_KEY=your-picovoice-access-key

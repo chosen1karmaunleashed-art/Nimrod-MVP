@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nimrod</string>
+    <string name="status_idle">Say the wake word to start</string>
+    <string name="status_listening">Listening\u2026</string>
+    <string name="status_thinking">Thinking\u2026</string>
+    <string name="status_speaking">Speaking\u2026</string>
+    <string name="mic_permission_rationale">Nimrod needs microphone access to hear the wake word and your questions.</string>
+</resources>
