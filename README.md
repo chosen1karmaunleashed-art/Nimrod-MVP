@@ -51,7 +51,6 @@ Nimrod/
 │       │       ├── values/themes.xml
 │       │       └── raw/                     put nimrod.ppn here
 │       └── test/java/com/example/nimrod/topic/TopicManagerTest.kt
-└── gradle/
 ```
 
 ## Setup
@@ -76,11 +75,12 @@ Nimrod/
    the Android `.ppn`, and drop it in `app/src/main/res/raw/nimrod.ppn`. Without it
    the app falls back to Porcupine's built-in `JARVIS` keyword so it still runs.
 
-4. Build:
+4. Build. Open the folder in Android Studio (it syncs and adds the Gradle wrapper
+   automatically), or generate the wrapper once and use the CLI:
 
    ```bash
+   gradle wrapper          # one time, if ./gradlew does not exist yet
    ./gradlew assembleDebug
-   # or
    ./gradlew installDebug
    ```
 
